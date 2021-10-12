@@ -1,0 +1,23 @@
+.headerComponent {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+.headerComponent:hover {
+  color: black;
+  cursor: pointer;
+}
+.headerComponent__icon {
+}
+.headerComponent__title {
+  text-align: center;
+  font-size: 10px;
+  font-weight: lighter;
+}
+.headerComponent__avatar {
+  object-fit: contain; /* resize fit */
+  height: 25px !important;
+  width: 25px !important;
+}

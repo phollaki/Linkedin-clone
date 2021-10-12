@@ -1,0 +1,80 @@
+.feed {
+  flex: 0.6;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.feed__top {
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+.feed__post {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.feed__top__actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.feed__top__action {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+}
+.feed__top__action:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.feed__top__actionsText {
+  color: grey;
+  font-size: 14px;
+  margin-left: 7px;
+  margin-right: 20px;
+}
+.feed__top__input {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+.feed__top__inputSend {
+  cursor: pointer;
+}
+.feed__top__inputField {
+  margin-left: 10px;
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid lightgray;
+  outline: none;
+  padding: 10px;
+  height: 20px;
+}
+.feed__line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.feed__lineHr {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+.feed__lineText {
+  font-size: 13px;
+  color: grey;
+}
+.feed__sortBy {
+  cursor: pointer;
+  align-items: center !important;
+  font-size: 13px;
+  margin-left: 2px;
+  display: flex;
+  font-weight: bold;
+}

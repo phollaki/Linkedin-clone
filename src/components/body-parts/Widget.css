@@ -1,0 +1,25 @@
+.widget {
+  background-color: white;
+  border-radius: 10px;
+  flex: 0.2;
+  padding: 15px;
+  position: sticky;
+  top: 80px;
+  height: fit-content;
+}
+.widget__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 90%;
+}
+.widget__infoIcon {
+  font-size: 15px !important;
+  color: gray;
+}
+.widget__bottomText {
+  color: gray;
+  font-size: 14px;
+  margin-top: 20px;
+}
